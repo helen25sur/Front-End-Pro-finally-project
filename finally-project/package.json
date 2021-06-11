@@ -1,0 +1,48 @@
+{
+  "name": "finally-project",
+  "version": "1.0.0",
+  "description": "This is finally project on the front-end-pro course in the Hillel school",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack",
+    "format": "prettier --write ./src/**.*"
+  },
+  "keywords": [
+    "javascript",
+    "spa"
+  ],
+  "author": "Elena Surilova",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^5.2.4",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "prettier": "2.3.0",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": true,
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "bracketSpacing": false,
+    "endOfLine": "lf"
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.14.2",
+    "babel-loader": "^8.2.2",
+    "history": "^5.0.0",
+    "lodash.defaultto": "^4.14.0",
+    "lodash.template": "^4.5.0",
+    "uuid": "^8.3.2"
+  }
+}
